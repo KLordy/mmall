@@ -25,7 +25,7 @@ public class CookieUtil {
         return null;
     }
 
-    public static void writeLoginToken(HttpServletResponse response, String token){
+    public static HttpServletResponse writeLoginToken(HttpServletResponse response, String token){
         Cookie ck = new Cookie(COOKIE_NAME,token);
         ck.setDomain(COOKIE_DOMAIN);
         ck.setPath("/");//代表设置在根目录
@@ -34,6 +34,7 @@ public class CookieUtil {
         ck.setMaxAge(60 * 60 * 24 * 365);//-1代表永久
         log.info("write cookieName:{}, cookieValue:{}",ck.getName(),ck.getValue());
         response.addCookie(ck);
+        return response;
     }
 
     public static void delLoginToken(HttpServletRequest request,HttpServletResponse response){
