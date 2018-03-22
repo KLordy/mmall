@@ -1,4 +1,6 @@
-/target
-/.idea
+/target/*
+/.idea/*
 *.imlgit
 index.jsp
+*.iml
+*.war
