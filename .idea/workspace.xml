@@ -6,95 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eb0a9cd-2b2b-400a-8f89-e69aa46ecd6a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mmall (1).iml" afterPath="$PROJECT_DIR$/mmall (1).iml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alipay/demo/trade/DemoHbRunner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alipay/demo/trade/Main$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alipay/demo/trade/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$AlipayCallback.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$Cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$OrderStatusEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$PayPlatformEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$PaymentTypeEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$ProductListOrderBy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$ProductStatusEnum.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$RedisCacheExtime.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const$Role.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/Const.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/RedisPool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/ResponseCode.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/ServerResponse.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/TokenCache$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/common/TokenCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/backend/CategoryManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/backend/OrderManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/backend/ProductManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/backend/UserManageController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/CartController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/OrderController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/ProductController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/ShippingController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/controller/portal/UserController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/CartMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/CategoryMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/OrderItemMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/OrderMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/PayInfoMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/ProductMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/ShippingMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/dao/UserMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Cart.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Category.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Order.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/OrderItem.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/PayInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Product.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/Shipping.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/pojo/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/ICartService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/ICategoryService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/IFileService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/IOrderService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/IProductService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/IShippingService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/IUserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/CartServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/CategoryServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/FileServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/OrderServiceImpl$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/OrderServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/ProductServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/ShippingServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/service/impl/UserServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/BigDecimalUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/CookieUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/DateTimeUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/FTPUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/JsonUtil$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/JsonUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/MD5Util.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/PropertiesUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/util/RedisPoolUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/CartProductVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/CartVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/OrderItemVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/OrderProductVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/OrderVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/ProductDetailVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/ProductListVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mmall/vo/ShippingVo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall.war" afterPath="$PROJECT_DIR$/target/mmall.war" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/util/CookieUtil.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/mmall/util/CookieUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/dao/test/CategoryDaoTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/dao/test/DaoTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/service/test/ProductServiceTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/service/test/ShippingServiceTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/test/Base64GroupTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/test/BigDecimalTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mmall/test/TestBase.class" afterPath="" />
-    </list>
+    <list default="true" id="6eb0a9cd-2b2b-400a-8f89-e69aa46ecd6a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -276,11 +188,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="2616" />
-    <option name="y" value="140" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2391" />
+    <option name="y" value="-9" />
+    <option name="width" value="2418" />
+    <option name="height" value="1318" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -327,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,8 +290,9 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -706,11 +618,12 @@
       <workItem from="1520075846971" duration="2886000" />
       <workItem from="1520154038014" duration="544000" />
       <workItem from="1520170411434" duration="370000" />
+      <workItem from="1521362227981" duration="52000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45224000" />
+    <option name="totallyTimeSpent" value="45276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,8 +635,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2391" y="-9" width="2418" height="1318" extended-state="7" />
-    <editor active="true" />
+    <frame x="2391" y="-9" width="3218" height="1768" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955536" sideWeight="0.49829352" order="6" side_tool="false" content_ui="tabs" />
@@ -731,7 +643,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955536" sideWeight="0.49829352" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49869224" sideWeight="0.50511944" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27363807" sideWeight="0.50511944" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17918456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868353" sideWeight="0.6028157" order="2" side_tool="false" content_ui="tabs" />
@@ -740,7 +652,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955536" sideWeight="0.4880546" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23720136" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14249364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
