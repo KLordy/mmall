@@ -43,8 +43,8 @@ public class UserSpringSessionController {
     public ServerResponse<User> login(String username, String password, HttpSession session, HttpServletResponse httpServletResponse,HttpServletRequest httpServletRequest){
         ServerResponse<User> response = iUserService.login(username,password);
         if(response.isSuccess()){
+            CookieUtil.writeLoginToken(httpServletResponse,session.getId());
             session.setAttribute(Const.CURRENT_USER,response.getData());
-//            HttpServletResponse resp = CookieUtil.writeLoginToken(httpServletResponse,session.getId());
 //            RedisShardedPoolUtil.setEx(session.getId(), JsonUtil.obj2String(response.getData()),Const.RedisCacheExtime.REDIS_SESSION_EXTIME);
         }
         return response;
